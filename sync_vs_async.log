@@ -1,0 +1,33 @@
+Task A: Compute factorial(2)
+sleep 2018-09-13 17:12:51.001765
+Task A: Compute factorial(3)
+sleep 2018-09-13 17:12:52.003164
+Task A: factorial(3) is 6
+Task B: Compute factorial(2)
+sleep 2018-09-13 17:12:53.004921
+Task B: Compute factorial(3)
+sleep 2018-09-13 17:12:54.006377
+Task B: Compute factorial(4)
+sleep 2018-09-13 17:12:55.008003
+Task B: Compute factorial(5)
+sleep 2018-09-13 17:12:56.008544
+Task B: factorial(5) is 120
+Total time: 6.010803937911987
+
+
+
+Task A: Compute factorial(2)
+sleep 2018-09-13 17:14:02.853987
+Task B: Compute factorial(2)
+sleep 2018-09-13 17:14:02.854109
+Task A: Compute factorial(3)
+sleep 2018-09-13 17:14:03.856167
+Task B: Compute factorial(3)
+sleep 2018-09-13 17:14:03.856564
+Task A: factorial(3) is 6
+Task B: Compute factorial(4)
+sleep 2018-09-13 17:14:04.858851
+Task B: Compute factorial(5)
+sleep 2018-09-13 17:14:05.860978
+Task B: factorial(5) is 120
+Total time: 4.010950088500977

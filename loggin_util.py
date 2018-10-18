@@ -1,17 +1,13 @@
+import asyncio
 import logging
-"""
-    logger setup
-"""
+import time
+from datetime import datetime
 
 logger = logging.getLogger(__name__)
+
+handler = logging.StreamHandler()
+formater = logging.Formatter('%(asctime)s:%(pathname)s <- %(funcName)s:%(levelname)s... %(message)s')
+handler.setFormatter(formater)
+logger.addHandler(handler)
 logger.setLevel(logging.DEBUG)
 
-handler = logging.FileHandler('asyncrequest.log')
-handler.setLevel(logging.DEBUG)
-
-formatter = logging.Formatter(
-    '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-)
-handler.setFormatter(formatter)
-
-logger.addHandler(handler)

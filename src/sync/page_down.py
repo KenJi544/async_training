@@ -1,5 +1,5 @@
 import requests
-from .loggin_util import logger
+from .util.loggin_util import logger
 
 
 def download_page(url):
@@ -10,4 +10,3 @@ def download_page(url):
         logger.info("page downloaded with succes")
     else:
         logger.warning("page didn't downloaded")
-
